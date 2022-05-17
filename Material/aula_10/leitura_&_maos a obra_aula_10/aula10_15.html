@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exemplo</title>
+</head>
+<body>
+
+    <form action="#">
+    	<label for="CPF_1">Digite o CPF com máscara:</label>
+    	<input 
+        	id="CPF_1" 
+            type="text" 
+            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" 
+            placeholder="___.___.___-__">
+        <br/>
+        <label for="CPF_2">Digite o CPF sem máscara:</label>
+    	<input 
+        	id="CPF_2" 
+            type="text" 
+            pattern="[0-9]{11}" 
+            placeholder="Apenas números">
+        <br/>
+	    <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
+

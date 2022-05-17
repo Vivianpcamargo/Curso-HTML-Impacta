@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exemplo</title>
+</head>
+<body>
+    <audio controls>
+        <source src="resources/exemplo.mp3" type="audio/mpeg" />
+        <source src="resources/exemplo.ogg" type="audio/ogg" />
+        <object 
+        	class="playerpreview" 
+            type="application/x-shockwave-flash" 
+            data="resources/audio.swf" width="200" height="20">
+          <param name="movie" value="resources/audio.swf" />
+          <param name="bgcolor" value="#085c68" />
+          <param name="FlashVars" value="mp3=resources/exemplo.mp3" />
+          <embed 
+          	href="resources/audio.swf" 
+            bgcolor="#085c68" 
+            width="200" 
+            height="20" 
+            name="movie" 
+            type="application/x-shockwave-flash" 
+            flashvars="mp3=resources/exemplo.mp3" />
+        </object>
+      </audio>
+    </body>
+</html>
+

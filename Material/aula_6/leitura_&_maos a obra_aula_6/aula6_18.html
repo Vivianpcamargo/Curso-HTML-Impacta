@@ -1,0 +1,33 @@
+<!doctype HTML>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>HTML5 Fundamentos - Microdata</title>
+	</head>
+	<body>
+		<main role="main">
+			<div itemscope itemtype="http://schema.org/Person">
+			  <span itemprop="name">Roque Fernando</span>
+			  <img src="images/roque.jpg" itemprop="image" />
+
+			  <span itemprop="jobTitle">Consultor em TI</span>
+			  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			    <span itemprop="streetAddress">
+			      Av. Paulista, 1009
+			    </span>
+			    <span itemprop="addressLocality">São Paulo</span>,
+			    <span itemprop="addressRegion">SP</span>
+			    <span itemprop="postalCode">01311-100</span>
+			  </div>
+			  <span itemprop="telephone">(11) 1234-0000</span>
+			  <a href="mailto:roque@exemplo.com.br" itemprop="email">
+			    roque@exemplo.com.br</a>
+
+			  Site da Empresa:
+			  <a href="http://www.impacta.com.br" itemprop="url">www.impacta.com.br</a>
+			</div>
+		</main>
+	</body>
+</html>
+
+

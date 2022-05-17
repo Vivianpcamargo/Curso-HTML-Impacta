@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<!-- Cabeçalho -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="E9 Mídia">
+		<meta name="keywords" content="html5,padrões web,semântica,css3">
+		<meta name="description" content="Treinamento de HTML5 - Noturno">
+		<link rel="stylesheet" href="../css/layout.css" type="text/css" />
+		<title>Impacta HTML5</title>
+	</head>
+	<!-- Corpo -->
+	<body>
+	<header></header>
+	<nav><!-- Área de navegação --></nav>	
+	<!-- Seção -->
+	<section id="s1">
+			<header>CADASTRO</header>
+			<hr />
+			<!-- method=get/post -->
+			<form method="get" action="">
+			Nome: <input type="text" placeholder="Digite aqui seu nome completo" required> <br />
+			E-mail: <input type="email" required><br />
+			Quantidade de dependentes: 
+			<input type="number" min="0" max="4" class="ajuste"> <br />
+			CEP: <input type="text" required pattern="[0-9]{8}" 
+			placeholder="Digite apenas números sem hífen"> <br />
+			Deseja receber novidades do site? <br />
+			Sim <input type="radio" name="novidade" value="sim"
+			class="ajuste" checked>
+			Não <input type="radio" name="novidade" value="nao" 
+			class="ajuste"> <br />
+			Confira nossos serviços:
+			<input list="servicos">
+			<datalist id="servicos">
+			<option value="Adminstração">
+			<option value="Contabilidade">
+			<option value="Financeiro">
+			<option value="Marketing">
+			</datalist><br />
+			Deixe seu comentário: <br />
+			<textarea rows="8" cols="30"></textarea>
+			<!--<input type="submit" value="Confirmar">-->
+			<button>Confirmar</button>
+			</form>
+			<hr />
+			<footer></footer>
+		</section>
+	</body>
+</html>

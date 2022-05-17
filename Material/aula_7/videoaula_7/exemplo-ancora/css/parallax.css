@@ -1,0 +1,94 @@
+﻿#s1{
+background:url(../parallax/Clue_Simple_Clouds.svg) 50% no-repeat fixed;
+}
+
+#s1 article{
+position:relative;
+width:100%;
+top:450px;
+}
+
+#s1 img {
+position:relative;
+left:5%;
+padding-left:15%;
+}
+
+#s1 #logo {
+background:url(../parallax/smashing-logo.png) 80% 250px no-repeat fixed;
+width:100%;
+min-height:1000px;
+position:relative;
+}
+
+#s2{
+background:url(../parallax/slide2.jpg) 50% no-repeat fixed;
+background-position:-300px;
+min-height:600px;
+}
+
+#s2 article{
+background:url(../parallax/grain.png) repeat fixed;
+width:445px;
+padding:12px;
+margin-left:12px;
+color:#fff;
+font:16px "Georgia";
+box-shadow:2px 2px 3px #000;
+border:solid 1px rgba(150,150,150,0.4);
+border-radius:0px 0px 10px 10px;
+line-height:1.4em;	
+}
+
+
+#s3{
+background:url(../parallax/slide3.jpg) 50% no-repeat fixed;
+background-position:-200px -400px;
+min-height:600px;
+}
+
+#s3 article{
+background:url(../parallax/grain.png) repeat fixed;
+width:445px;
+padding:12px;
+margin-left:720px;
+margin-top:-250px;
+color:#fff;
+font:16px "Georgia";
+box-shadow:2px 2px 3px #000;
+border:solid 1px rgba(150,150,150,0.4);
+border-radius:0px 0px 10px 10px;
+line-height:1.4em;	
+}
+
+#s3 #photo{
+background:url(../parallax/photo.png) 30% 160px no-repeat fixed;
+height:250px;
+}
+#s4 {
+background:url(../parallax/slide4.jpg) repeat fixed;
+}
+#s4 #filme{
+text-align:center; margin-top:-40px;
+}
+#s4 article{
+background:url(../parallax/grain.png) repeat fixed;
+width:85%; padding:12px;
+color:#fff; margin:auto;
+font:14px "Georgia";
+box-shadow:2px 2px 3px #000;
+border:solid 1px rgba(150,150,150,0.4);
+border-radius:0px 0px 10px 10px;
+line-height:1.4em;	
+}
+
+#s5 {
+background:url(../parallax/Clue_Simple_Clouds.svg)  50% bottom no-repeat fixed;
+}
+#s5 #fim{
+background:url(../parallax/theend.png) 50% 500px no-repeat fixed;
+height:250px;
+
+}
+
+

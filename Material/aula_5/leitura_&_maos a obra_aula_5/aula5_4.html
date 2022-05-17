@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Exemplo</title>
+</head>
+<body>
+
+    <video 
+    	controls 
+        poster="resources/exemplo.jpg" 
+        src="resources/exemplo.mp4"
+        width="480" height="270">
+        <object type="application/x-shockwave-flash" data="resources/video.swf"
+        width="480" height="270">
+            <param name="allowfullscreen" value="true">
+            <param name="allowscriptaccess" value="always">
+            <param name="flashvars" value="file=resources/exemplo.mp4">
+            <!--[if IE]><!-->
+            <param name="movie" value="resources/video.swf">
+            <!--<![endif]--> 
+            <img src="resources/exemplo.jpg" 
+            	width="480" height="270" alt="Video">
+        </object>
+    </video>
+
+</body>
+</html>
+

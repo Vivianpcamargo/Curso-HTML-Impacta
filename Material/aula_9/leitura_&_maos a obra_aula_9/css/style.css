@@ -1,0 +1,70 @@
+/*exemplo aula9_1.html*/
+p {
+	margin-top: 70px;
+	margin-left: 50px;
+}
+
+/*exemplo aula9_2.html*/
+#imagem {
+	position: absolute;
+	left: 30px;
+	top: 60px
+}
+
+/*exemplo aula9_3.html*/
+.imagem {
+	position: relative;
+	left: 30px;
+	top: 60px
+}
+
+/*exemplo aula9_4.html
+img {
+	width: 15%;
+ }
+ 
+p {
+	font-size: 20px;
+	margin-top: 0px
+}
+*/
+
+
+
+/*exemplo aula9_5.html*/
+.posicao{
+	position: absolute;
+	width:170px; height: 100px;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+}
+#branca{
+	top:140px;left:100px;
+	background-color: #fff;
+	border: solid 3px #000;
+	z-index: 4; 
+}
+#azul{
+	top:100px;left:60px;
+	background-color: #00f;
+	border: solid 3px #000;
+	z-index: 3; 
+}
+#amarela{
+	top:60px;left:20px;
+	background-color: #ff0;
+	border: solid 3px #000;
+	z-index: 2; 
+}
+#fundo{
+	top:20px;left:5px;
+	width:300px;height: 250px;
+	background-color: #eee;
+	border: solid 3px #000;
+	z-index: 1; 
+}
+
+
+/*exemplo aula9_6.html*/
+.linha{display: inline;}

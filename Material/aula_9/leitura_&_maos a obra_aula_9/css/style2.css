@@ -1,0 +1,117 @@
+
+.btn {
+
+color:#fff;
+border-radius:4px;
+border:1px solid #980021;
+box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), 
+inset 0 -3px 6px 0 rgba(0,0,0,.2),
+0 3px 2px 0 rgba(0,0,0,.2);
+cursor: pointer;
+}
+
+.btn-large{
+	width:180px;
+	padding: 10px 10px;
+	height:50px;
+	font-size:20px;
+	text-align:center;
+}
+
+.btn-primary{
+	background-image: 
+	linear-gradient(to bottom, #E44D3A, #A7372B 130%);
+}
+
+
+.borda-arredondada{
+	border-radius: 25px;
+	width:200px;
+}
+
+h1 {
+	border-style: dashed;
+	border-color: red
+ }
+ h2 {
+ 	border-style: dotted;
+ 	border-color: black
+ }
+ h3 {
+ 	border-style: double;
+ 	border-color: green
+ }
+ h4 {
+ 	border-style: groove;
+ 	border-color: yellow
+ }
+
+
+
+.bloco{
+	width:200px;
+	height: 250px;
+	border:solid 1px #aaa;
+	color:#888;
+	font-family: arial;
+	margin:10px 10px;
+	padding-left:10px;
+	padding-top: 10px;
+	border-radius: 25px;
+}
+
+
+
+a:link {text-decoration: none; color: red}
+a:visited {text-decoration: none; color: green}
+a:hover {text-decoration: underline; color: blue}
+
+.p1 {
+ font-family: verdana;
+ font-size: 14px;
+ color: red;
+ text-align: center
+}
+.p2 {
+ font-family: arial;
+ font-size: 14px;
+ color: blue;
+ text-align: left
+}
+.p3 {
+ font-family: courier;
+ font-size: 14px;
+ color: black;
+ text-align: right
+}
+
+#p1 {
+ font-family: verdana;
+ font-size: 14px;
+ color: red;
+ text-align: center
+}
+#p2 {
+ font-family: arial;
+ font-size: 14px;
+ color: blue;
+ text-align: left
+}
+
+@media print {
+ .midia {
+ font-family: arial;
+ font-size: 11px;
+ color: black;
+ text-align: left
+ }
+}
+@media only screen and (max-width: 480px){
+ .midia {
+ font-family: arial;
+ font-size: 13px;
+ color: red;
+ text-align: left
+ }
+}
+

@@ -1,0 +1,10 @@
+table,th,td{
+	border-spacing: 0px;
+	border:solid 1px #000;
+}
+table{
+	width: 100%;
+}
+td{
+	text-align: center;
+}
