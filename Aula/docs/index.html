@@ -2,75 +2,64 @@
 <html lang="pt-br">
 	<!-- Cabeçalho -->
 	<head>
-		<title>Aulas de HTML5</title>
 		<meta charset="utf-8">
-		<meta name="keywords" content="tags,css,html5" />
-		<meta name="description" content="Aulas de HTML5 com CSS" />
-		<!-- css -->
+		<meta name="author" content="E9 Mídia">
+		<meta name="keywords" content="html5,padrões web,semântica,css3">
+		<meta name="description" content="Treinamento de HTML5 - Noturno">
 		<link rel="stylesheet" href="../css/layout.css" type="text/css" />
-	
 		<title>Impacta HTML5</title>
 	</head>
 	<!-- Corpo -->
 	<body>
 	<header></header>
-	<nav>
-		<ul>
-			<li>HOME</li> 
-			<li>PRODUTOS</li>
-			<li>MÍDIA</li>
-			<li>GALERIA</li>
-			<li>CONTATO</a></li>
-		</ul>
-	</nav>
+	<nav><!-- Área de navegação --></nav>	
 	<!-- Seção -->
 	<section id="s1">
-		<div>
+			<header>FORMULÁRIOS</header>
+			<hr />
+			<!-- method=get/post -->
+			<form method="get" action="">
+			Nome: <input type="text" placeholder="Digite aqui seu nome completo" required> <br />
+			E-mail: <input type="email" required><br />
+			Quantidade de dependentes: 
+			<input type="number" min="0" max="4" class="ajuste"> <br />
+			CEP: <input type="text" required pattern="[0-9]{8}" 
+			placeholder="Digite apenas números sem hífen"> <br />
+			Deseja receber novidades do site? <br />
+			Sim <input type="radio" name="novidade" value="sim"
+			class="ajuste" checked>
+			Não <input type="radio" name="novidade" value="nao" 
+			class="ajuste"> <br />
+			Confira nossos serviços:
+			<input list="servicos">
+			<datalist id="servicos">
+			<option value="Adminstração">
+			<option value="Contabilidade">
+			<option value="Financeiro">
+			<option value="Marketing">
+			</datalist><br />
+			Deixe seu comentário: <br />
+			<textarea rows="8" cols="30"></textarea>
+			<!--<input type="submit" value="Confirmar">-->
+			<button>Confirmar</button>
+			</form>
+			<hr />
 			<!-- Artigo1 -->
 			<article>
 				<p>
-				<img src="../imagens/Faculdade-Impacta-Tecnologia.png" width="70" /> 
-				<br />
-				Vidis litro abertis. <i>Consetis adipiscings elitis.</i> Pra lá , depois divoltis porris, paradis.
-				</p> 
-			</article>
-			
-			<!-- Artigo 2 -->
-			<article>
-				<p> Mé faiz elementum girarzis, nisi eros
-				<em>vermeio</em>, in elementis mé pra quem é amistosis quis leo.
-				<br />
-				Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-			</article>
-		</div>
-			<div>
-			<!-- Artigo1 -->
-			<article>
-				<p>
-				Vidis litro abertis. 
+				<b style="color:#333399">Mussum ipsum cacilds</b>, vidis litro abertis. 
 				<i>Consetis adipiscings elitis.</i> Pra lá , depois divoltis porris, paradis. </p>
-				<div id="logo-relativo">
-					<img src="../imagens/impacta-online.png">
-				</div>
-				<div id="logo">
-					<img src="../imagens/impacta-online.png">
-				</div>
 			</article>
-			
+		
 			<!-- Artigo 2 -->
 			<article>
-				<p> Mé faiz elementum girarzis, nisi eros
+				<p><strong>Paisis, filhis, espiritis santis.</strong> Mé faiz elementum girarzis, nisi eros
 				<em>vermeio</em>, in elementis mé pra quem é amistosis quis leo. 
 				<br />
 				Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
 			</article>
-		</div>
 			<!-- Conteúdo á parte -->
-			<aside>
-			<div id="a1"></div>
-			<div id="a2"></div>
-			<div id="a3"></div>
-			</aside>
+			<aside></aside>
 			<!-- Rodapé -->
 			<footer></footer>
 		</section>
