@@ -7,40 +7,53 @@
         <meta name="description" content="Aulas de HTML5 com CSS" />
     </head>
     <body>
-        <header>Inserindo Mídia em HTML5</header>
+        <header>IMPACTA TECNOLOGIA</header>
         <nav><!-- Área de navegação --></nav>
-        <section id="s1">
+        <section>
             <article>
-                <header>Imagens</header>
-                <p>Imagem 1: <br/>
-                    <img src="./imagens/promo1.jpg" width="350">
-                </p>
-                <p>Imagem 2: <br/>
-                    <img src="./imagens/promo2.jpg" width="450">
-                </p>
-                <p>Imagem 2: <br/>
-                    <img src="./imagens/promo3.jpg" width="550">
-                </p>
+                <header>
+                    <h1>Aula de HTML5 - CSS.</h1>
+                </header>
+                <p>Aulas de desenvolvimento para WEB, Sites, hotsites e sites responsivos.</p>
             </article>
             <article>
-                <header>Vídeos</header>
-                <p>Vídeo em HTML5<br/>
-                    <video controls autoplay>
-                        <source src="./video/video.mp4" type="video/mp4" />
-                        <source src="./video/video.ogv" type="video/ogv" />
-                        <source src="./video/video.webm" type="video/webm" />
-                    </video>
+                <header>Tipos de vínculos</header>
+                <p> Link absoluto <br/>
+                    <a href="http://www.impactaonline.com.br" target="_blank">Impacta Online</a>
+                </p>
+                <p> Link relativo <br/>
+                    <a href="exemplo-ancora/docs/parallax.html">Parallax</a>
+                </p>
+                <p> Link com imagens <br/>
+                    <a href="http://www.impactaonline.com.br" target="_blank">
+                        <img scr="imagens/impacta9online.png" />
+                    </a>
+                </p>
+                <hr/>
+                <p> Link para e-mail <br/>
+                    <a href="mailto:contato@impacta.com.br&subject=Aulas de HTML5&cc=ouvidoria@impacta.com.br">Contato</a>
+                </p>
+                <p> Link com ancora <br/>
+                    <a href="exemplo-ancora/docs/parallax.html#s2">Parallax</a>
+                </p>
+                <hr/>
+                <p>
+                    <div itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">Roque Fernando</span>
+                        <span itemprop="jobTitle">Consultor de TI</span>
+                        <span itemprop="streetAddress">Av.Paulista, 1009</span>
+                        <span itemprop="url">http://www.impactaonline.com.br</span>
+                    </div>
+                </p>
+                <hr/>
+                <p> Link para download <br/>
+                    <a href="docs/logo-ensino-online-impacta.zip">Clique aqui para baixar</a>
                 </p>
             </article>
-            <article>
-                <header>Audio</header>
-                <p>Audio em HTML5<br/>
-                    <audio controls>
-                        <source src="./audio/teste.mp3" />
-                    </audio>
-                </p>
-            </article>
-            <footer></footer>
         </section>
+        <aside><!-- Área de publicidade --></aside>
+        <footer>
+            &copy 2014 - Todos os direitos reservados
+        </footer>
     </body>
 </html>
