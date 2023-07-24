@@ -1,67 +1,73 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Laboratório 3 - Utilizando campos range para ajutar a largura e altura de uma imagem</title>
-<style>
-body {
-	margin:10px;	
-}
-img {
-	width:600px;
-	height:600px;	
-}
-#Area {
-	float:left;
-	width:600px;
-	height:600px;
-	border:rgba(204,204,204,1) 1px solid;
-}
-#V {
-	-webkit-appearance: slider-vertical;
-	height:600px;
-	width:30px;
-	float:left;	
-}
-#H {
-	float:left;
-	clear:left;
-	width:600px;
-	height:30px;
-}
-</style>
+	<meta charset="utf-8">
+	<title>Laboratório 3 - Utilizando campos range para ajutar a largura e altura de uma imagem</title>
+	<style>
+		body {
+			margin: 10px;
+		}
+
+		img {
+			width: 600px;
+			height: 600px;
+		}
+
+		#Area {
+			float: left;
+			width: 600px;
+			height: 600px;
+			border: rgba(204, 204, 204, 1) 1px solid;
+		}
+
+		#V {
+			-webkit-appearance: slider-vertical;
+			height: 600px;
+			width: 30px;
+			float: left;
+		}
+
+		#H {
+			float: left;
+			clear: left;
+			width: 600px;
+			height: 30px;
+		}
+	</style>
 </head>
 
 <body>
-	
-    <div id="Area">
-	    <img src="images/HTML5-Logo.png" alt="logotipo">
-    </div>
-    
 
-    <input type="range" id="V" max="600" min="0" value="600"> 
-    <input type="range" id="H" max="600" min="0" value="600"> 
-	
-    <script>
-	var ranges = document.querySelectorAll('[type="range"]');
-	
-	for(var i=0; i<ranges.length; i++){
-		
-		ranges.item(i).addEventListener('change', function(){
-			
-			var imgStyle = document.querySelector('img').style,
-				size = this.value+'px';
-				
-			if(this.id=='V'){
-				imgStyle.height = size;
-			}else{
-				imgStyle.width = size;
-			}
-			
-		}, false);
-		
-	}
+	<div id="Area">
+		<img src="images/HTML5-Logo.png" alt="logotipo">
+	</div>
+
+
+	<input type="range" id="V" max="600" min="0" value="600">
+	<input type="range" id="H" max="600" min="0" value="600">
+
+	<script>
+		var ranges = document.querySelectorAll('[type="range"]');
+
+		for (var i = 0; i < ranges.length; i++) {
+
+			ranges.item(i).addEventListener('change', function () {
+
+				var imgStyle = document.querySelector('img').style,
+					size = this.value + 'px';
+
+				if (this.id == 'V') {
+					imgStyle.height = size;
+				} else {
+					imgStyle.width = size;
+				}
+
+			}, false);
+
+		}
 	</script>
 
 </body>
+
 </html>

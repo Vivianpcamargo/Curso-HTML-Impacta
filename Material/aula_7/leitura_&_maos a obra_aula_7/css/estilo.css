@@ -1,10 +1,14 @@
-table,th,td{
+table,
+th,
+td {
 	border-spacing: 0px;
-	border:solid 1px #000;
+	border: solid 1px #000;
 }
-table{
+
+table {
 	width: 100%;
 }
-td{
+
+td {
 	text-align: center;
 }
